@@ -28,10 +28,13 @@ const navLinks = [
 
 const Navbar = () => {
   return (
-    <nav>
-      <Menu />
+    <nav className="flex justify-between mx-8">
+      <span className="flex gap-2">
+        <Menu className="md:hidden"></Menu>
+        <h3>My menu</h3>
+      </span>
       {/* 3rd option navbar */}
-      <ul className="flex justify-center">
+      <ul className="flex ">
         {navLinks.map((route) => (
           <Link key={route.id} route={route}></Link>
         ))}
@@ -59,6 +62,7 @@ const Navbar = () => {
           <a href="/blog">Blog</a>
         </li>
       </ul> */}
+      <button>Sign in</button>
     </nav>
   );
 };

@@ -5,9 +5,12 @@ import Navbar from "./components/Navbar/Navbar";
 function App() {
   return (
     <>
-      <DaisyNav></DaisyNav>
-      <Navbar></Navbar>
-      <h1 className="text-2xl font-bold">Vite + React</h1>
+      <header>
+        <DaisyNav></DaisyNav>
+        <Navbar></Navbar>
+      </header>
+      <main></main>
+      <footer></footer>
     </>
   );
 }
