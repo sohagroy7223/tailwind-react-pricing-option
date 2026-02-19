@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Basic",
+    "name": "Basic Plan",
     "price": 9,
     "billing": "monthly",
     "description": "Best for personal projects and beginners",
@@ -23,7 +23,7 @@
   },
   {
     "id": 2,
-    "name": "Pro",
+    "name": "Pro Plan",
     "price": 29,
     "billing": "monthly",
     "description": "Perfect for freelancers and startups",
@@ -47,7 +47,7 @@
   },
   {
     "id": 3,
-    "name": "Enterprise",
+    "name": "Enterprise Plan",
     "price": 99,
     "billing": "monthly",
     "description": "For large teams and high-scale businesses",
