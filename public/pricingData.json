@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "name": "Basic",
+    "price": 9,
+    "billing": "monthly",
+    "description": "Best for personal projects and beginners",
+    "popular": false,
+    "features": [
+      "1 Website",
+      "5 GB Storage",
+      "Basic Analytics",
+      "Email Support",
+      "SSL Certificate",
+      "Limited API Access",
+      "Community Support"
+    ],
+    "limits": {
+      "bandwidth": "50 GB",
+      "users": 1
+    },
+    "buttonText": "Start Free"
+  },
+  {
+    "id": 2,
+    "name": "Pro",
+    "price": 29,
+    "billing": "monthly",
+    "description": "Perfect for freelancers and startups",
+    "popular": true,
+    "features": [
+      "10 Websites",
+      "50 GB Storage",
+      "Advanced Analytics",
+      "Priority Email & Chat Support",
+      "Custom Domain",
+      "Automated Backups",
+      "API Access",
+      "Team Collaboration",
+      "Performance Optimization"
+    ],
+    "limits": {
+      "bandwidth": "500 GB",
+      "users": 5
+    },
+    "buttonText": "Get Pro"
+  },
+  {
+    "id": 3,
+    "name": "Enterprise",
+    "price": 99,
+    "billing": "monthly",
+    "description": "For large teams and high-scale businesses",
+    "popular": false,
+    "features": [
+      "Unlimited Websites",
+      "Unlimited Storage",
+      "Real-time Analytics",
+      "24/7 Phone, Chat & Email Support",
+      "Dedicated Account Manager",
+      "Advanced Security (DDoS Protection)",
+      "Custom Integrations",
+      "SLA Guarantee",
+      "Audit Logs",
+      "Single Sign-On (SSO)"
+    ],
+    "limits": {
+      "bandwidth": "Unlimited",
+      "users": "Unlimited"
+    },
+    "buttonText": "Contact Sales"
+  }
+]
