@@ -14,7 +14,9 @@ function App() {
       </header>
       <main>
         <Suspense
-          fallback={<span className="loading loading-dots loading-md"></span>}
+          fallback={
+            <span className="loading loading-dots ml-[50%] mt-56 loading-md"></span>
+          }
         >
           <PricingOption pricingOptions={pricingOptions}></PricingOption>
         </Suspense>
