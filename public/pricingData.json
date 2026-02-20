@@ -13,7 +13,8 @@
       "Email Support",
       "SSL Certificate",
       "Limited API Access",
-      "Community Support"
+      "Community Support",
+      "sub Domain"
     ],
     "limits": {
       "bandwidth": "50 GB",
