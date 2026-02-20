@@ -1,5 +1,5 @@
 import React from "react";
-import { ComposedChart, Line, LineChart, XAxis, YAxis } from "recharts";
+import { Line, LineChart, XAxis, YAxis } from "recharts";
 
 const ResultsCharts = () => {
   const salesData = [
@@ -14,7 +14,7 @@ const ResultsCharts = () => {
   ];
   return (
     <div>
-      <LineChart width={800} height={500} data={salesData}>
+      <LineChart md:width={700} height={500} data={salesData}>
         <XAxis dataKey={"month"}></XAxis>
         <YAxis></YAxis>
         <Line dataKey="buy" stroke="red"></Line>
