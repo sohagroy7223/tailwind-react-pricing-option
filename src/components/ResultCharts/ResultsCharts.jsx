@@ -1,5 +1,13 @@
 import React from "react";
-import { Line, LineChart, XAxis, YAxis } from "recharts";
+import {
+  CartesianGrid,
+  Line,
+  LineChart,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
 
 const ResultsCharts = () => {
   const salesData = [
@@ -14,11 +22,13 @@ const ResultsCharts = () => {
   ];
   return (
     <div>
-      <LineChart md:width={700} height={500} data={salesData}>
+      <LineChart width={"auto"} height={500} data={salesData}>
         <XAxis dataKey={"month"}></XAxis>
         <YAxis></YAxis>
         <Line dataKey="buy" stroke="red"></Line>
         <Line dataKey={"sales"} stroke="green"></Line>
+        <CartesianGrid strokeDasharray="3 3"></CartesianGrid>
+        <Tooltip></Tooltip>
       </LineChart>
     </div>
   );

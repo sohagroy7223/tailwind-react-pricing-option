@@ -24,6 +24,7 @@ function App() {
         </Suspense>
 
         <ResultsCharts></ResultsCharts>
+
         <NumberCharts></NumberCharts>
       </main>
       <footer></footer>

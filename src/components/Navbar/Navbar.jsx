@@ -73,7 +73,7 @@ const Navbar = () => {
           <a href="/blog">Blog</a>
         </li>
       </ul> */}
-      <button className="">Sign in</button>
+      <button>Sign in</button>
     </nav>
   );
 };
