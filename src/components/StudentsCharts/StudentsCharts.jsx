@@ -26,7 +26,7 @@ const StudentsCharts = ({ studentsData }) => {
   //   console.log(studentsChartData);
 
   return (
-    <div>
+    <div className="flex justify-center">
       <BarChart width={500} height={300} data={studentsChartData}>
         <XAxis dataKey="name"></XAxis>
         <YAxis></YAxis>

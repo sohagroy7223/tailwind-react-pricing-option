@@ -21,8 +21,8 @@ const ResultsCharts = () => {
     { month: "aug", sales: 3200, buy: 1500 },
   ];
   return (
-    <div>
-      <LineChart width={"auto"} height={500} data={salesData}>
+    <div className="flex justify-center">
+      <LineChart width={500} height={300} data={salesData}>
         <XAxis dataKey={"month"}></XAxis>
         <YAxis></YAxis>
         <Line dataKey="buy" stroke="red"></Line>

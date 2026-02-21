@@ -11,8 +11,8 @@ const NumberCharts = () => {
     { subject: "Geography", marks: 60 },
   ];
   return (
-    <div>
-      <BarChart width={"auto"} height={500} data={studentMarks}>
+    <div className="flex justify-center">
+      <BarChart width={500} height={300} data={studentMarks}>
         <XAxis dataKey={"subject"}></XAxis>
         <YAxis></YAxis>
         <Bar dataKey={"marks"} stroke="blue " fill="#8884d8"></Bar>
