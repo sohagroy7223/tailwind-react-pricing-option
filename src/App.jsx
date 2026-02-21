@@ -13,32 +13,34 @@ function App() {
   const studentsData = axios.get("studentsData.json");
   return (
     <>
-      <header>
-        {/* <DaisyNav></DaisyNav> */}
-        <Navbar></Navbar>
-      </header>
-      <main>
-        <Suspense
-          fallback={
-            <span className="loading loading-dots ml-[50%] mt-56 loading-md"></span>
-          }
-        >
-          <PricingOption pricingOptions={pricingOptions}></PricingOption>
-        </Suspense>
+      <div className="w-full mx-auto">
+        <header>
+          {/* <DaisyNav></DaisyNav> */}
+          <Navbar></Navbar>
+        </header>
+        <main>
+          <Suspense
+            fallback={
+              <span className="loading loading-dots ml-[50%] mt-56 loading-md"></span>
+            }
+          >
+            <PricingOption pricingOptions={pricingOptions}></PricingOption>
+          </Suspense>
 
-        <Suspense
-          fallback={
-            <span className="loading loading-dots ml-[50%] mt-56 loading-md"></span>
-          }
-        >
-          <StudentsCharts studentsData={studentsData}></StudentsCharts>
-        </Suspense>
+          <Suspense
+            fallback={
+              <span className="loading loading-dots ml-[50%] mt-56 loading-md"></span>
+            }
+          >
+            <StudentsCharts studentsData={studentsData}></StudentsCharts>
+          </Suspense>
 
-        <ResultsCharts></ResultsCharts>
+          <ResultsCharts></ResultsCharts>
 
-        <NumberCharts></NumberCharts>
-      </main>
-      <footer></footer>
+          <NumberCharts></NumberCharts>
+        </main>
+        <footer></footer>
+      </div>
     </>
   );
 }
