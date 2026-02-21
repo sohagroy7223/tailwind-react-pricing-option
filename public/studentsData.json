@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Rahim Ahmed",
+    "roll": 101,
+    "class": "10",
+    "section": "A",
+    "marks": {
+      "math": 85,
+      "english": 78,
+      "science": 88
+    },
+    "total": 251,
+    "grade": "A"
+  },
+  {
+    "id": 2,
+    "name": "Karim Hasan",
+    "roll": 102,
+    "class": "10",
+    "section": "A",
+    "marks": {
+      "math": 72,
+      "english": 69,
+      "science": 75
+    },
+    "total": 216,
+    "grade": "B"
+  },
+  {
+    "id": 3,
+    "name": "Sadia Akter",
+    "roll": 103,
+    "class": "10",
+    "section": "B",
+    "marks": {
+      "math": 90,
+      "english": 86,
+      "science": 92
+    },
+    "total": 268,
+    "grade": "A+"
+  },
+  {
+    "id": 4,
+    "name": "Nafis Rahman",
+    "roll": 104,
+    "class": "10",
+    "section": "B",
+    "marks": {
+      "math": 65,
+      "english": 70,
+      "science": 68
+    },
+    "total": 203,
+    "grade": "B-"
+  },
+  {
+    "id": 5,
+    "name": "Tania Islam",
+    "roll": 105,
+    "class": "10",
+    "section": "C",
+    "marks": {
+      "math": 88,
+      "english": 82,
+      "science": 85
+    },
+    "total": 255,
+    "grade": "A"
+  }
+]
